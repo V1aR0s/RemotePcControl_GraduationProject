@@ -4,8 +4,8 @@
 
 <p align="center">
    <img src="https://i.ibb.co/XpyfFv8/grpc-logo.png" alt="Grpc" width="70">
-   <img src="" alt="Game Version">
-   <img src="" alt="License">
+   <img src="https://i.ibb.co/Ssy7KY5/2022-09-03-221652871.png" alt=".net MAUI" width="70">
+   <img src="https://i.ibb.co/vcF0xVG/image.jpg" alt="License" width="70">
 </p>
 
 ## About
