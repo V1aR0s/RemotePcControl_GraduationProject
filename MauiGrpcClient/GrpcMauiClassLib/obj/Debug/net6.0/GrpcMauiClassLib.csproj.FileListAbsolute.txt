@@ -1,0 +1,12 @@
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\bin\Debug\net6.0\GrpcMauiClassLib.deps.json
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\bin\Debug\net6.0\GrpcMauiClassLib.dll
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\bin\Debug\net6.0\GrpcMauiClassLib.pdb
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\obj\Debug\net6.0\GrpcMauiClassLib.csproj.AssemblyReference.cache
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\obj\Debug\net6.0\GrpcMauiClassLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\obj\Debug\net6.0\GrpcMauiClassLib.AssemblyInfoInputs.cache
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\obj\Debug\net6.0\GrpcMauiClassLib.AssemblyInfo.cs
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\obj\Debug\net6.0\GrpcMauiClassLib.csproj.CoreCompileInputs.cache
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\obj\Debug\net6.0\GrpcMauiClassLib.dll
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\obj\Debug\net6.0\refint\GrpcMauiClassLib.dll
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\obj\Debug\net6.0\GrpcMauiClassLib.pdb
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\obj\Debug\net6.0\ref\GrpcMauiClassLib.dll

@@ -1,0 +1,2 @@
+D:\RD\Diplom\MauiGrpcClient\GrpcMauiClassLib\GrpcMauiClassLib.csproj;neutral
+D:\RD\Diplom\MauiGrpcClient\MauiGrpcClient\MauiGrpcClient.csproj;x64

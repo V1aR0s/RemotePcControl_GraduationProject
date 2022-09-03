@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiGrpcClient.ProgrammsPage"
+             xmlns:local="clr-namespace:MauiGrpcClient"
+             BackgroundColor="#FAF4EE"
+             Title="Процессы"
+             >
+
+
+    
+    <ContentPage.BindingContext>
+        <local:ProgrammsPageViewModel></local:ProgrammsPageViewModel>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <ListView  x:Name="listView" ItemsSource="{Binding programms}" RowHeight="90">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        
+                        <Grid Padding="0, 5, 10, 10">
+                            <Frame>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" VerticalOptions="Fill">
+                                    <Image Source="programs_icon.png" WidthRequest="46"></Image>
+                                    <StackLayout Margin="10, 0, 0, 0">
+                                        <Label Text="{Binding ProgrammName}" WidthRequest="200"></Label>
+                                    </StackLayout>
+
+                                    <ImageButton Source="closeicon.png"
+                                                WidthRequest="15"
+                                                HeightRequest="15"
+                                                HorizontalOptions="EndAndExpand"
+                                                VerticalOptions="Center" 
+                                                Command="{Binding Path=BindingContext.DeleteProgramm, Source={x:Reference listView}}"
+                                                CommandParameter="{Binding .}"
+                                                
+                                                />
+                                </StackLayout>
+
+                            </Frame>
+                        </Grid>
+
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+
+
+</ContentPage>

@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<OutputType>WinExe</OutputType>
+	<TargetFramework>net6.0-windows</TargetFramework>
+	<Nullable>enable</Nullable>
+	<UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\close_button.png" />
+    <None Remove="Images\collapse_button.png" />
+  </ItemGroup>
+	<ItemGroup>
+		<Protobuf Include="Protos\greet.proto" GrpcServices="Client" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	<PackageReference Include="Cake.Powershell" Version="1.0.1" />
+	<PackageReference Include="Google.Protobuf" Version="3.21.1" />
+	<PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.7" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.7" />
+	<PackageReference Include="System.Data.SQLite" Version="1.0.116" />
+	<PackageReference Include="System.Management" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\..\GrpcModelsClassLibrary\GrpcModelsClassLibrary.csproj" />
+	<ProjectReference Include="..\WpfGrpcClientLibrary\WpfGrpcClientLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM\Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AudioDeviceCmdlets">
+      <HintPath>C:\Users\vlaro\source\repos\ConsoleAppAudioChnager\ConsoleAppAudioChnager\bin\Debug\net6.0\AudioDeviceCmdlets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>bin\Debug\net6.0-windows\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\close_button.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\collapse_button.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

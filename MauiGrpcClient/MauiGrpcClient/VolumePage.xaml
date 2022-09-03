@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiGrpcClient.VolumePage"
+             Title="Звук"
+             xmlns:sliders="clr-namespace:Syncfusion.Maui.Sliders;assembly=Syncfusion.Maui.Sliders"
+             BackgroundColor="#FAF4EE"
+             >
+    <StackLayout>
+        <Grid x:Name="grdCameraViewer" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <sliders:SfSlider
+                       x:Name="SliderVolume"
+                       Minimum="0" 
+                       Maximum="100"     
+                
+                       Grid.Column="0"
+                       Interval="10"
+                              ShowTicks="True" 
+	                   ShowLabels="True" 
+                       Orientation="Vertical">
+                
+                <sliders:SfSlider.TrackStyle>
+                    <sliders:SliderTrackStyle ActiveFill="#E8C290" InactiveFill="#CACED6" ActiveSize="15" InactiveSize="13"  />
+                </sliders:SfSlider.TrackStyle>
+                <sliders:SfSlider.ThumbStyle>
+                    <sliders:SliderThumbStyle Radius="13" Stroke="Gray" StrokeThickness="2" Fill="Snow" />
+                </sliders:SfSlider.ThumbStyle>
+            </sliders:SfSlider>
+
+
+            <Frame Grid.Column="1" Margin="20" BackgroundColor="#EFBE98">
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <Label FontSize="20" Text="Устройства звука:" TextColor="#B98068"></Label>
+                    <Picker x:Name="pickerOutput" HorizontalOptions="Start" Margin="0, 15, 0, 0" TextColor="#B98068" BackgroundColor="Wheat">
+                    </Picker>
+                    <Label TextColor="#B98068" FontSize="14" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand">
+                        Данный выбор влияет как на устройства ввода, так и на устройства вывода. Изменение будет зависить от выбора, 
+                        выбравши устройство ввода изменения измениться только устрйоство ввода, а выбравши устрйоство вывода изсениться только устрйоство вывода.
+                    </Label>
+                    <Button Clicked="SetVolumeAndDevice_Clicked" Text="Сохранить" VerticalOptions="EndAndExpand" BackgroundColor="Wheat" TextColor="DarkBlue"></Button>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </StackLayout>
+</ContentPage>

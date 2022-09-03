@@ -1,0 +1,335 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcServer";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc SayHelloStream (stream HelloRequest) returns (stream HelloReply);
+  rpc GetRequestData (GetRequest) returns (RequestReply);
+
+
+  rpc SendCommandLink (SetRequestCommandLink) returns (SetRequestCommandLinkReply);
+
+  rpc GetPcStatus (GetPcStatusRequest) returns (GetPcStatusReply);
+
+
+
+  rpc SetNowpageFromMAUI (RequestRegulatorSetterRequest) returns (RequestRegulatorSetterReply);
+  rpc GetNowpageFromMAUI (RequestRegulatorGetterRequest) returns (RequestRegulatorGetterReply);	
+
+
+  rpc SendRunnigProgs (SendRunnigProgsListRequest) returns (SendRunnigProgsListReply);
+  rpc GetRunnigProgs (GetRunnigProgsListRequest) returns (GetRunnigProgsListReply);
+
+
+  rpc SetRunnigProgrammkillName (SetKillRunningProgrammNameRequest) returns (SetKillRunningProgrammNameReply);
+  rpc GetRunnigProgrammkillName (GetKillRunningProgrammNameRequest) returns (GetKillRunningProgrammNameReply);
+
+
+  rpc SetHardDrives (SetHardDrivesRequest) returns (SetHardDrivesReply);
+  rpc GetHardDrives (GetHardDrivesRequest) returns (GetHardDrivesReply);
+
+  rpc SetFileManagerWay (SetFileManagerWayRequest) returns (SetFileManagerWayReply);
+  rpc GetFileManagerWay (GetFileManagerWayRequest) returns (GetFileManagerWayReply);
+
+
+  rpc SetDirectoryFiles (SetDirectoryFilesRequest) returns (SetDirectoryFilesReply);
+  rpc GetDirectoryFiles (GetDirectoryFilesRequest) returns (GetDirectoryFilesReply);
+
+
+  rpc SetSoundInfo (SetSoundInfoRequest) returns (ReplyString);
+  rpc GetSoundInfo (GetAudioDeviceInfoRequest) returns (GetAudioDeviceInfoReply);
+
+  rpc SetSoundMaui (SetSoundMauiRequest) returns (ReplyString);
+  rpc GetSoundSelectFromMaui (RequestId) returns (GetSoundSelectFromMauiReply);
+
+
+
+  rpc SetMonitorsInfo (SetMonitorsInfoRequest) returns (ReplyString);
+
+  rpc GetMonitorsInfo (RequestId) returns (GetMonitorsInfoReply);
+
+  rpc CommandRequestToMonitorCapture (SetRequestToMonitorCapture) returns (ReplyString);
+  rpc GetSelectedMonitor (RequestId) returns (GetSelectedMonitorReply);
+
+
+  rpc SetCaptureByteArr (SetCaptureByteArrRequest) returns (ReplyString);
+  rpc GetCaptureByteArr (RequestId) returns (GetCaptureByteArrReply);
+
+  //rpc SetCaptureMonitor 
+  rpc RegisterAccout (RegisterRequest) returns (RegisterReply);
+  rpc LoginAccout (LoginCheckRquest) returns (LoginCheckReply);
+}
+
+
+
+
+
+//Account
+	message RegisterRequest{
+		string Login = 1;
+		string Email = 2;
+		string Password = 3;
+	} 
+
+	message RegisterReply{
+		string result = 1;
+		int32 RequestId = 2;
+	}
+
+
+	message LoginCheckRquest{
+		string Email = 1;
+		string Password = 2;
+	}
+	message LoginCheckReply{
+		int32 RequestId = 1;
+		string result = 2;
+
+	}
+
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
+
+//Получения запрос на пк в (режиме таймера)
+message GetRequest{
+	int32 id = 1;
+	string pcData = 2;
+}
+
+message RequestReply{
+	int32 id = 1;
+	string RequestName = 2;
+	string link = 3;
+	string RequestStatus = 4;
+}
+
+
+//WPF ---------------------------------------------------------
+
+
+	//send request to ps status change
+	message SetRequestCommandLink{
+		int32 id = 1;
+		string RequestName = 2;
+		string link = 3;
+		string RequestStatus = 4;
+	}
+	message SetRequestCommandLinkReply{
+		string message = 1;
+	}
+
+
+	//Get maui page now
+	message RequestRegulatorGetterRequest{
+		int32 id = 1;
+	}
+	message RequestRegulatorGetterReply{
+		string pagenow = 1;
+		string RequestName = 2;
+	}
+
+
+	//Running progs send from wpf
+	message SendRunnigProgsListRequest {
+		int32 id = 1;
+		string runningProgs = 2;
+	}
+	message SendRunnigProgsListReply {
+		string message = 1;
+	}
+	//Get Closing runnig programm name
+	message GetKillRunningProgrammNameRequest{
+		int32 id = 1;
+	}
+	message GetKillRunningProgrammNameReply{
+		string programmName = 1;
+	}
+
+
+
+	//Set Drives Name from pcData
+	message SetHardDrivesRequest{
+		int32 id = 1;
+		string drives = 2;
+	}
+	message SetHardDrivesReply{
+		string message = 1;
+	}
+ 
+	//Get FileManager way
+	message GetFileManagerWayRequest{
+		int32 id = 1;
+	}
+	message GetFileManagerWayReply{
+		string way = 1;
+	}
+
+	//Now Directory files from FileManager
+	message SetDirectoryFilesRequest{
+		int32 id = 1;
+		string files = 2;
+	}
+	message SetDirectoryFilesReply{
+		string message = 1;
+	}
+
+
+	message SetSoundInfoRequest{
+		int32 id = 1;
+		string Auido = 2;
+		string Volume = 3;
+	}
+
+
+	message GetSoundSelectFromMauiReply{
+		string SelectedAudioDevice = 1;
+		string SelectedVolume = 2;
+	}
+
+	message SetMonitorsInfoRequest{
+		int32 id = 1;
+		string PcScreens = 2;
+	}
+
+
+	message GetSelectedMonitorReply{
+		string selectedMonitorName = 1;
+		int32 selectedMonitorId = 2;
+	}
+
+	message SetCaptureByteArrRequest{
+		int32 id = 1;
+		string ByteArr = 2;
+	}
+
+
+//Maui ---------------------------------------------------------
+
+	message GetPcStatusRequest{
+		int32 id = 1;
+	}
+
+	message GetPcStatusReply{
+		string result = 1;
+		string requestDateTime = 2;
+	}
+
+
+	//We send which page we opend on maui client, and from this result we set timer tick
+	//time on wpf and set request from this for data that we need for page from maui
+	message RequestRegulatorSetterRequest{
+		int32 id = 1;
+		string pagenow = 2;
+	}
+	message RequestRegulatorSetterReply{
+		string message = 1;
+	}
+
+
+	//Running progs get to MAUI
+	message GetRunnigProgsListRequest {
+		int32 id = 1;
+	}
+	message GetRunnigProgsListReply {
+		string runningProgs = 1;
+	}
+
+	//Set Closing runnig programm name
+	message SetKillRunningProgrammNameRequest{
+		int32 id = 1;
+		string programmName = 2;
+		string RequestName = 3;
+	}
+	message SetKillRunningProgrammNameReply{
+		string message = 1;
+	}
+
+
+	//Get Drives Name from pcData
+	message GetHardDrivesRequest{
+		int32 id = 1;
+	}
+	message GetHardDrivesReply{
+		string drives = 1;
+	}
+
+
+	//Set FileManager way
+	message SetFileManagerWayRequest{
+		int32 id = 1;
+		string way = 2;
+		string requestName = 3;
+		string Files = 4;
+	}
+	message SetFileManagerWayReply{
+		string message = 1;
+	}
+
+
+	//Get Directoryies Files
+	message GetDirectoryFilesRequest{
+		int32 id = 1;
+	}
+	message GetDirectoryFilesReply{
+		string files = 2;
+	}
+
+
+	//Set sound Request
+
+	message SetSoundMauiRequest{
+		int32 id = 1;
+		string SelectedAydioDevice = 2;
+		string SelectedVolume = 3;
+		string RequestName = 4;
+	}
+
+	//Get to MAUI sound info
+	message GetAudioDeviceInfoRequest{
+		int32 id = 1;
+	}
+	message GetAudioDeviceInfoReply{
+		string AudioDevices = 1;
+		string Volume = 2;
+	}
+
+
+	message GetMonitorsInfoReply{
+		string MonitorsInfo = 1;
+	}
+
+
+
+	message SetRequestToMonitorCapture{
+		int32 id = 1;
+		int32 MonitorId = 2;
+		string MonitorName = 3;
+		string RequestName = 4;
+	}
+
+
+	message GetCaptureByteArrReply{
+		string ByteArr = 1;
+	}
+
+
+message ReplyString{
+	string message = 1;
+}
+
+message RequestId{
+	int32 id = 1;
+}

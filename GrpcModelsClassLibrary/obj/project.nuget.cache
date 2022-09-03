@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "A5zvumflriXsOKAnA8nB2cCLzu4EDxlBDnDQw0EE1H6YH7loMUnzNVvWzQaMrhD0VCR7Pl4Fb1j7wwb63Tozew==",
+  "success": true,
+  "projectFilePath": "D:\\RD\\Diplom\\GrpcModelsClassLibrary\\GrpcModelsClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vlaro\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\vlaro\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\vlaro\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

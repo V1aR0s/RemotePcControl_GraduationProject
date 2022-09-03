@@ -1,0 +1,32 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcServerAccount";
+
+package greet;
+
+
+service GreeterAccount{
+
+}
+
+
+
+message RegisterRequest{
+	string Login = 1;
+	string Email = 2;
+	string Password = 3;
+} 
+
+message RegisterReply{
+	string message = 1;
+}
+
+
+
+message LoginRequest{
+
+}
+
+message LoginReply{
+
+}

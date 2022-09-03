@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiGrpcClient"
+             x:Class="MauiGrpcClient.SideMenu"
+             BackgroundColor="#CF9775"
+             FlyoutIcon="menu.png">
+
+
+    <FlyoutItem Title="MyApp"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Состояние пк" Icon="memmory.png" ContentTemplate="{DataTemplate local:PcStatusPage}"></ShellContent>
+        <ShellContent Title="Экраны/Камеры" Icon="screen_icon.png" ContentTemplate="{DataTemplate local:ScreensPage}"></ShellContent>
+        <ShellContent Title="Звук" Icon="audio_icon.png"  ContentTemplate="{DataTemplate local:VolumePage}"></ShellContent>
+        <ShellContent Title="Файлы" Icon="files_icon.png" ContentTemplate="{DataTemplate local:FileSystem}"></ShellContent>
+        <ShellContent Title="Запущенные программы" Icon="programs_icon.png" ContentTemplate="{DataTemplate local:ProgrammsPage}"></ShellContent>
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <StackLayout Padding="10" BackgroundColor="Wheat">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="60"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label VerticalOptions="Center" x:Name="LoginName"></Label>
+                <Button Text="Exit" Grid.Column="1" BackgroundColor="DarkBlue" CornerRadius="0" Padding="10" Clicked="ButtonExit_Clicked"></Button>
+            </Grid>
+        </StackLayout>
+    </Shell.FlyoutFooter>
+
+</Shell>

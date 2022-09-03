@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcServer";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc SayHelloStream (stream HelloRequest) returns (stream HelloReply);
+  rpc GetRequestData (GetRequest) returns (RequestReply);
+
+
+  rpc SendCommandLink (SetRequestCommandLink) returns (SetRequestCommandLinkReply);
+
+  rpc GetPcStatus (GetPcStatusRequest) returns (GetPcStatusReply);
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
+
+//Получения запрос на пк в (режиме таймера)
+message GetRequest{
+	int32 id = 1;
+	string pcData = 2;
+}
+
+message RequestReply{
+	int32 id = 1;
+	string RequestName = 2;
+	string link = 3;
+	string RequestStatus = 4;
+}
+
+//отправка запроса на изменения
+message SetRequestCommandLink{
+	int32 id = 1;
+	string RequestName = 2;
+	string link = 3;
+	string RequestStatus = 4;
+}
+message SetRequestCommandLinkReply{
+	string message = 1;
+}
+
+
+message GetPcStatusRequest{
+	int32 id = 1;
+}
+
+message GetPcStatusReply{
+	string result = 1;
+}

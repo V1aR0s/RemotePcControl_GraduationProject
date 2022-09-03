@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MauiGrpcClient.ScreensPage"
+             xmlns:local = "clr-namespace:MauiGrpcClient;assembly=MauiGrpcClient"
+             Title="Странциа экранов"            
+             BackgroundColor="#FAF4EE">
+
+
+
+
+    <ContentPage.BindingContext>
+        <local:ScreensPageViewModel></local:ScreensPageViewModel>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <mct:ByteArrayToImageSourceConverter x:Key="ByteArrayToImageSourceConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="250"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="0">
+                <StackLayout x:Name="imageStack">
+                    <Image WidthRequest="100" Source="{Binding dotNetBotImageByteArray}"/>
+                </StackLayout>  
+            </ScrollView>
+
+            <ScrollView Grid.Row="1">
+
+                <StackLayout Margin="5,5" x:Name="MainLayoutStack">
+                    <ListView  x:Name="listView"  Grid.Row="1" ItemsSource="{Binding screens}" RowHeight="150">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid Padding="0, 5, 10, 10">
+                                        <Frame>
+                                            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Background="Snow" Padding="0, 10">
+                                                <StackLayout Margin="0, 0, 0, 7" Orientation="Horizontal">
+                                                    <Image Margin="0, 0, 10, 0" Source="screen_icon.png" WidthRequest="28"></Image>
+                                                    <Label Text="{Binding name}"></Label>
+                                                </StackLayout>
+
+                                                <StackLayout Margin="15, 5, 0, 0" Orientation="Horizontal" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                                                    <Label Text="{Binding Width}"></Label>
+                                                    <Label Text="x"></Label>
+                                                    <Label Text="{Binding Heigth}"></Label>
+
+                                                    <ImageButton Padding="5" CornerRadius="5" BackgroundColor="#B98068" WidthRequest="60" HeightRequest="40" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Source="page_camera_icon.png"
+                                                                 Command="{Binding Path=BindingContext.GetCapture, Source={x:Reference listView}}"
+                                                                 CommandParameter="{Binding .}"></ImageButton>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </Frame>
+                                    </Grid>
+
+                                </ViewCell>
+
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+
+
+
+    </ContentPage.Content>
+</ContentPage>

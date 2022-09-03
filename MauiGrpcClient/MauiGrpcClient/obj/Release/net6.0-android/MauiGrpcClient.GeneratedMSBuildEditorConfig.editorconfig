@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiGrpcClient
+build_property.ProjectDir = D:\RD\Diplom\MauiGrpcClient\MauiGrpcClient\
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/FileSystem.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.FileSystem.xaml
+build_metadata.AdditionalFiles.TargetPath = FileSystem.xaml
+build_metadata.AdditionalFiles.RelativePath = FileSystem.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/FooterContentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.FooterContentView.xaml
+build_metadata.AdditionalFiles.TargetPath = FooterContentView.xaml
+build_metadata.AdditionalFiles.RelativePath = FooterContentView.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/HeaderContentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.HeaderContentView.xaml
+build_metadata.AdditionalFiles.TargetPath = HeaderContentView.xaml
+build_metadata.AdditionalFiles.RelativePath = HeaderContentView.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/PcStatusPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.PcStatusPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PcStatusPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PcStatusPage.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/ProgrammsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.ProgrammsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProgrammsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProgrammsPage.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/ScreensPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.ScreensPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ScreensPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ScreensPage.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/SideMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.SideMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = SideMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = SideMenu.xaml
+
+[D:/RD/Diplom/MauiGrpcClient/MauiGrpcClient/VolumePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiGrpcClient.VolumePage.xaml
+build_metadata.AdditionalFiles.TargetPath = VolumePage.xaml
+build_metadata.AdditionalFiles.RelativePath = VolumePage.xaml

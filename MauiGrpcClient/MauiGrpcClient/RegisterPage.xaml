@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiGrpcClient.RegisterPage"
+             xmlns:local="clr-namespace:MauiGrpcClient"
+             Title="Регистрация"             
+             BackgroundColor="#B98068">
+    <ContentPage.Content>
+        <Frame HorizontalOptions="Center" VerticalOptions="Center" Margin="20, 0" BorderColor="Transparent" CornerRadius="10" BackgroundColor="#FAF4EE">
+            <StackLayout Padding="20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="NotValid" Text="" TextColor="Red"  Grid.Row="0"></Label>
+                    <Label Text="Email" Grid.Row="1"  Margin="0,20, 0, 0"></Label>
+                    <Editor x:Name="Email" Grid.Row="2" WidthRequest="400" HorizontalOptions="StartAndExpand" BackgroundColor="WhiteSmoke"></Editor>
+                    <Label Text="Логин" Grid.Row="3"  Margin="0,20, 0, 0"></Label>
+                    <Editor x:Name="Login"  Grid.Row="4" WidthRequest="400" HorizontalOptions="StartAndExpand" BackgroundColor="WhiteSmoke"></Editor>
+                    <Label Text="Пароль" Grid.Row="5"  Margin="0,20, 0, 0"></Label>
+                    <Editor x:Name="Password" Grid.Row="6" WidthRequest="400" HorizontalOptions="StartAndExpand" BackgroundColor="WhiteSmoke"></Editor>
+                    <Label Text="Повтор пароля" Grid.Row="7"  Margin="0,20, 0, 0"></Label>
+                    <Editor x:Name="PasswordRepeat" Grid.Row="8" WidthRequest="400" HorizontalOptions="StartAndExpand" BackgroundColor="WhiteSmoke"></Editor>
+                    <Button Clicked="Button_Clicked_1" Grid.Row="9" Text="Регистрация" Margin="0,20, 0, 0" BackgroundColor="#B98068"></Button>
+                    <Label Text="Есть аккаунт?" Grid.Row="10"  Margin="0,20, 0, 0"></Label>
+                    <Button Clicked="Button_Clicked" Grid.Row="11" Text="Войти" Margin="0,0, 0, 0" BackgroundColor="#B98020"></Button>
+                </Grid>
+            </StackLayout>
+        </Frame>
+
+    </ContentPage.Content>
+</ContentPage>

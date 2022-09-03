@@ -1,0 +1,12 @@
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\bin\Release\net6.0-windows\WpfGrpcClientLibrary.deps.json
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\bin\Release\net6.0-windows\WpfGrpcClientLibrary.dll
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\bin\Release\net6.0-windows\WpfGrpcClientLibrary.pdb
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\obj\Release\net6.0-windows\WpfGrpcClientLibrary.csproj.AssemblyReference.cache
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\obj\Release\net6.0-windows\WpfGrpcClientLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\obj\Release\net6.0-windows\WpfGrpcClientLibrary.AssemblyInfoInputs.cache
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\obj\Release\net6.0-windows\WpfGrpcClientLibrary.AssemblyInfo.cs
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\obj\Release\net6.0-windows\WpfGrpcClientLibrary.csproj.CoreCompileInputs.cache
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\obj\Release\net6.0-windows\WpfGrpcClientLibrary.dll
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\obj\Release\net6.0-windows\refint\WpfGrpcClientLibrary.dll
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\obj\Release\net6.0-windows\WpfGrpcClientLibrary.pdb
+D:\RD\Diplom\GrpcWPFClient\WpfGrpcClientLibrary\obj\Release\net6.0-windows\ref\WpfGrpcClientLibrary.dll

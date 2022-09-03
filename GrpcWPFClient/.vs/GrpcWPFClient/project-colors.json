@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "840587ca-bccf-44db-825c-6f2e5f160f36": {
+      "ProjectGuid": "840587ca-bccf-44db-825c-6f2e5f160f36",
+      "DisplayName": "GrpcWPFClient",
+      "ColorIndex": 0
+    },
+    "f10e8992-8b3a-419f-97b3-4f24bd173c61": {
+      "ProjectGuid": "f10e8992-8b3a-419f-97b3-4f24bd173c61",
+      "DisplayName": "WpfGrpcClientLibrary",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "3bcee0ae-8251-4144-aa5e-a3c9247967cf": {
+      "ProjectGuid": "3bcee0ae-8251-4144-aa5e-a3c9247967cf",
+      "DisplayName": "XamarinClient",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
