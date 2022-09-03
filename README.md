@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-   <img src="https://i.ibb.co/XpyfFv8/grpc-logo.png" alt="Grpc">
+   <img src="https://i.ibb.co/XpyfFv8/grpc-logo.png" alt="Grpc" width="70">
    <img src="" alt="Game Version">
    <img src="" alt="License">
 </p>
