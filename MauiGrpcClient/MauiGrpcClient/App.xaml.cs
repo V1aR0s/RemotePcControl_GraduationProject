@@ -3,6 +3,7 @@ using GrpcMauiClassLib;
 using GrpcServer;
 using MauiGrpcClient.DataSql;
 using MauiGrpcClient.Extantions;
+using System.Globalization;
 
 namespace MauiGrpcClient;
 
@@ -21,7 +22,6 @@ public partial class App : Application
             using var channel = GrpcChannel.ForAddress(StaticParametrs.BaseURI);
             var client = new Greeter.GreeterClient(channel);
             var res = client.SayHello(new HelloRequest { Name = "dsadas" });
-            string z = "";
         }
         catch(Exception ex) {
             string ex_ = ex.Message;
@@ -51,7 +51,9 @@ public partial class App : Application
 
             if (reply.Result == "true")
             {
+                LocalizationResourceManager.Instance.SetCulture(new CultureInfo(StaticParametrs.LanguageNow));
                 MainPage = new SideMenu();
+
                 StaticParametrs.IdRequest = reply.RequestId;
             }
             else

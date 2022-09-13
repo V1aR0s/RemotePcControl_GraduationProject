@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RD\\Diplom\\MauiGrpcClient\\MauiGrpcClient\\MauiGrpcClient.csproj": {}
+    "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\MauiGrpcClient\\MauiGrpcClient.csproj": {}
   },
   "projects": {
-    "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj": {
+    "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj",
+        "projectUniqueName": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj",
         "projectName": "GrpcMauiClassLib",
-        "projectPath": "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj",
+        "projectPath": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj",
         "packagesPath": "C:\\Users\\vlaro\\.nuget\\packages\\",
-        "outputPath": "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\obj\\",
+        "outputPath": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -81,13 +81,15 @@
               "version": "[2.46.3, )"
             },
             "Microsoft.Maui.Dependencies": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             }
           },
@@ -116,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         },
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
@@ -136,13 +138,15 @@
               "version": "[2.46.3, )"
             },
             "Microsoft.Maui.Dependencies": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             }
           },
@@ -174,7 +178,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         },
         "net6.0-ios15.4": {
           "targetAlias": "net6.0-ios",
@@ -194,13 +198,15 @@
               "version": "[2.46.3, )"
             },
             "Microsoft.Maui.Dependencies": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
@@ -237,7 +243,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         },
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
@@ -257,13 +263,15 @@
               "version": "[2.46.3, )"
             },
             "Microsoft.Maui.Dependencies": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
@@ -301,7 +309,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         },
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
@@ -321,13 +329,15 @@
               "version": "[2.46.3, )"
             },
             "Microsoft.Maui.Dependencies": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Windows.SDK.BuildTools": {
@@ -351,7 +361,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.25, 10.0.19041.25]"
+              "version": "[10.0.19041.26, 10.0.19041.26]"
             }
           ],
           "frameworkReferences": {
@@ -371,18 +381,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\RD\\Diplom\\MauiGrpcClient\\MauiGrpcClient\\MauiGrpcClient.csproj": {
+    "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\MauiGrpcClient\\MauiGrpcClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RD\\Diplom\\MauiGrpcClient\\MauiGrpcClient\\MauiGrpcClient.csproj",
+        "projectUniqueName": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\MauiGrpcClient\\MauiGrpcClient.csproj",
         "projectName": "MauiGrpcClient",
-        "projectPath": "D:\\RD\\Diplom\\MauiGrpcClient\\MauiGrpcClient\\MauiGrpcClient.csproj",
+        "projectPath": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\MauiGrpcClient\\MauiGrpcClient.csproj",
         "packagesPath": "C:\\Users\\vlaro\\.nuget\\packages\\",
-        "outputPath": "D:\\RD\\Diplom\\MauiGrpcClient\\MauiGrpcClient\\obj\\",
+        "outputPath": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\MauiGrpcClient\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -408,32 +418,32 @@
           "net6.0-android31.0": {
             "targetAlias": "net6.0-android",
             "projectReferences": {
-              "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj": {
-                "projectPath": "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj"
+              "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj": {
+                "projectPath": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj"
               }
             }
           },
           "net6.0-ios15.4": {
             "targetAlias": "net6.0-ios",
             "projectReferences": {
-              "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj": {
-                "projectPath": "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj"
+              "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj": {
+                "projectPath": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj"
               }
             }
           },
           "net6.0-maccatalyst15.4": {
             "targetAlias": "net6.0-maccatalyst",
             "projectReferences": {
-              "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj": {
-                "projectPath": "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj"
+              "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj": {
+                "projectPath": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj"
               }
             }
           },
           "net6.0-windows10.0.19041": {
             "targetAlias": "net6.0-windows10.0.19041.0",
             "projectReferences": {
-              "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj": {
-                "projectPath": "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj"
+              "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj": {
+                "projectPath": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj"
               }
             }
           }
@@ -451,6 +461,10 @@
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "CommunityToolkit.Maui.Markup": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
@@ -470,14 +484,18 @@
               "target": "Package",
               "version": "[2.46.3, )"
             },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "SQLitePCLRaw.bundle_green": {
@@ -527,15 +545,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.linux-arm",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.8, 6.0.8]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.linux-arm64",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.8, 6.0.8]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.8, 6.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -555,7 +573,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         },
         "net6.0-ios15.4": {
           "targetAlias": "net6.0-ios",
@@ -563,6 +581,10 @@
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "CommunityToolkit.Maui.Markup": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
@@ -582,14 +604,18 @@
               "target": "Package",
               "version": "[2.46.3, )"
             },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "SQLitePCLRaw.bundle_green": {
@@ -658,7 +684,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         },
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
@@ -666,6 +692,10 @@
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "CommunityToolkit.Maui.Markup": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
@@ -685,14 +715,18 @@
               "target": "Package",
               "version": "[2.46.3, )"
             },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "SQLitePCLRaw.bundle_green": {
@@ -762,7 +796,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         },
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
@@ -770,6 +804,10 @@
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "CommunityToolkit.Maui.Markup": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
@@ -789,14 +827,18 @@
               "target": "Package",
               "version": "[2.46.3, )"
             },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Windows.SDK.BuildTools": {
@@ -852,19 +894,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.8, 6.0.8]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.8, 6.0.8]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.25, 10.0.19041.25]"
+              "version": "[10.0.19041.26, 10.0.19041.26]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.8, 6.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -884,7 +926,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

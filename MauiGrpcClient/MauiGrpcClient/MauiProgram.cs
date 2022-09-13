@@ -20,6 +20,9 @@ public static class MauiProgram
 			});
 
         builder.Services.AddSingleton<IAlertService, AlertService>();
+
+        builder.Services.AddLocalization();
+
         return builder.Build();
 	}
 }

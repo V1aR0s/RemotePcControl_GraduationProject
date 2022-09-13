@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WUMxoupoDX8XBP5hBZoyDOix191dL1BoEotwLdcKQ5ceOfmrSqgbPwZGV5fgMFah+Kx41zfluifobmmpAbmmtg==",
+  "dgSpecHash": "zmHItPMwIDpMzna+78GCBprcvzLWLKQLjN0Cg/1FOwf1eMYe8AbWk6fKeTWnIn/JeAj9n58uDUXqIA9ju2eW1Q==",
   "success": true,
-  "projectFilePath": "D:\\RD\\Diplom\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj",
+  "projectFilePath": "D:\\RD\\GIT\\RemotePcControl_GraduationProject\\MauiGrpcClient\\GrpcMauiClassLib\\GrpcMauiClassLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vlaro\\.nuget\\packages\\google.protobuf\\3.21.1\\google.protobuf.3.21.1.nupkg.sha512",
     "C:\\Users\\vlaro\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
@@ -19,12 +19,12 @@
     "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.3.1\\microsoft.graphics.win2d.1.0.3.1.nupkg.sha512",
-    "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.maui.dependencies\\6.0.400\\microsoft.maui.dependencies.6.0.400.nupkg.sha512",
-    "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.maui.extensions\\6.0.400\\microsoft.maui.extensions.6.0.400.nupkg.sha512",
+    "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.maui.dependencies\\6.0.486\\microsoft.maui.dependencies.6.0.486.nupkg.sha512",
+    "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.maui.extensions\\6.0.486\\microsoft.maui.extensions.6.0.486.nupkg.sha512",
     "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.maui.graphics\\6.0.403\\microsoft.maui.graphics.6.0.403.nupkg.sha512",
     "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.403\\microsoft.maui.graphics.win2d.winui.desktop.6.0.403.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
-    "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.0\\microsoft.windowsappsdk.1.1.0.nupkg.sha512",
+    "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.3\\microsoft.windowsappsdk.1.1.3.nupkg.sha512",
     "C:\\Users\\vlaro\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\vlaro\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\vlaro\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
@@ -112,7 +112,7 @@
     "C:\\Users\\vlaro\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.6.20.1\\xamarin.kotlin.stdlib.jdk8.1.6.20.1.nupkg.sha512",
     "C:\\Users\\vlaro\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.0.1\\xamarin.kotlinx.coroutines.android.1.6.0.1.nupkg.sha512",
     "C:\\Users\\vlaro\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.0.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.0.1.nupkg.sha512",
-    "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.25\\microsoft.windows.sdk.net.ref.10.0.19041.25.nupkg.sha512"
+    "C:\\Users\\vlaro\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.26\\microsoft.windows.sdk.net.ref.10.0.19041.26.nupkg.sha512"
   ],
   "logs": []
 }

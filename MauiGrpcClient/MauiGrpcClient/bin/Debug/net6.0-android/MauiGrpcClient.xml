@@ -4,6 +4,122 @@
         <name>MauiGrpcClient</name>
     </assembly>
     <members>
+        <member name="T:MauiGrpcClient.Resources.Localization.AppResources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.BackButton">
+            <summary>
+              Ищет локализованную строку, похожую на Back.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.FileSystemPage">
+            <summary>
+              Ищет локализованную строку, похожую на PC&apos;s File System.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.MenuExit">
+            <summary>
+              Ищет локализованную строку, похожую на Exit.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.MenuFiles">
+            <summary>
+              Ищет локализованную строку, похожую на PC Files.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.MenuLangTitle">
+            <summary>
+              Ищет локализованную строку, похожую на Change language:.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.MenuPcStatus">
+            <summary>
+              Ищет локализованную строку, похожую на PC condition.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.MenuRunProgs">
+            <summary>
+              Ищет локализованную строку, похожую на Running programms.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.MenuScreens">
+            <summary>
+              Ищет локализованную строку, похожую на Monitors.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.MenuSound">
+            <summary>
+              Ищет локализованную строку, похожую на Soudns settings.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.pcStatusBattaryLoad">
+            <summary>
+              Ищет локализованную строку, похожую на Battary/Work Time.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.pcStatusCPU">
+            <summary>
+              Ищет локализованную строку, похожую на CPU.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.pcStatusLastRequest">
+            <summary>
+              Ищет локализованную строку, похожую на Last pc&apos;s request.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.pcStatusRam">
+            <summary>
+              Ищет локализованную строку, похожую на RAM.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.pcStatusTitle">
+            <summary>
+              Ищет локализованную строку, похожую на pc status.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.RunnigProgrammsPageTitle">
+            <summary>
+              Ищет локализованную строку, похожую на Processes.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.SaveButton">
+            <summary>
+              Ищет локализованную строку, похожую на Save.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.ScreensPageTitle">
+            <summary>
+              Ищет локализованную строку, похожую на Monitors.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.SoundPageCheckerTitle">
+            <summary>
+              Ищет локализованную строку, похожую на Sound devices.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.SoundPageDescription">
+            <summary>
+              Ищет локализованную строку, похожую на This choice affects both input and output devices. The change will depend on the choice, selecting an input device will change only the input device, and selecting an output device will change only the output device..
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.SoundPageTitle">
+            <summary>
+              Ищет локализованную строку, похожую на Sound.
+            </summary>
+        </member>
         <member name="P:MauiGrpcClient.ScreensPageViewModel.DotNetBotImageByteArray">
             <inheritdoc cref="F:MauiGrpcClient.ScreensPageViewModel._dotNetBotImageByteArray"/>
         </member>

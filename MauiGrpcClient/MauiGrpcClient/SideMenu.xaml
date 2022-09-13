@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MauiGrpcClient"
              x:Class="MauiGrpcClient.SideMenu"
+             xmlns:localization="clr-namespace:MauiGrpcClient.Resources.Localization"
              BackgroundColor="#CF9775"
              FlyoutIcon="menu.png">
 
@@ -10,22 +11,34 @@
     <FlyoutItem Title="MyApp"
                 Shell.TabBarIsVisible="False"
                 FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="Состояние пк" Icon="memmory.png" ContentTemplate="{DataTemplate local:PcStatusPage}"></ShellContent>
-        <ShellContent Title="Экраны/Камеры" Icon="screen_icon.png" ContentTemplate="{DataTemplate local:ScreensPage}"></ShellContent>
-        <ShellContent Title="Звук" Icon="audio_icon.png"  ContentTemplate="{DataTemplate local:VolumePage}"></ShellContent>
-        <ShellContent Title="Файлы" Icon="files_icon.png" ContentTemplate="{DataTemplate local:FileSystem}"></ShellContent>
-        <ShellContent Title="Запущенные программы" Icon="programs_icon.png" ContentTemplate="{DataTemplate local:ProgrammsPage}"></ShellContent>
+        <ShellContent Title="{Binding LocalizationResourceManager[MenuPcStatus], Mode=OneWay}" Icon="memmory.png" ContentTemplate="{DataTemplate local:PcStatusPage}"></ShellContent>
+        <ShellContent Title="{Binding LocalizationResourceManager[MenuScreens], Mode=OneWay}" Icon="screen_icon.png" ContentTemplate="{DataTemplate local:ScreensPage}"></ShellContent>
+        <ShellContent Title="{Binding LocalizationResourceManager[MenuSound], Mode=OneWay}" Icon="audio_icon.png"  ContentTemplate="{DataTemplate local:VolumePage}"></ShellContent>
+        <ShellContent Title="{Binding LocalizationResourceManager[MenuFiles], Mode=OneWay}" Icon="files_icon.png" ContentTemplate="{DataTemplate local:FileSystem}"></ShellContent>
+        <ShellContent Title="{Binding LocalizationResourceManager[MenuRunProgs], Mode=OneWay}" Icon="programs_icon.png" ContentTemplate="{DataTemplate local:ProgrammsPage}"></ShellContent>
     </FlyoutItem>
 
     <Shell.FlyoutFooter>
         <StackLayout Padding="10" BackgroundColor="Wheat">
+
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition Width="60"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Label VerticalOptions="Center" x:Name="LoginName"></Label>
-                <Button Text="Exit" Grid.Column="1" BackgroundColor="DarkBlue" CornerRadius="0" Padding="10" Clicked="ButtonExit_Clicked"></Button>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label VerticalOptions="Center" HorizontalOptions="Start" Grid.Row="0" Text="{Binding LocalizationResourceManager[MenuLangTitle], Mode=OneWay}"></Label>
+                <Picker  Grid.Row="0" Grid.Column="1" x:Name="LanguagePicker"
+                 SelectedIndexChanged="LanguageChanged"
+                 BackgroundColor="Snow"
+                 HorizontalOptions="Center" />
+                
+                <Label VerticalOptions="Center" x:Name="LoginName" Grid.Row="1"></Label>
+                <Button FontSize="13" Grid.Row="1" Text="{Binding LocalizationResourceManager[MenuExit], Mode=OneWay}" Grid.Column="1" BackgroundColor="DarkBlue" CornerRadius="0" Padding="10" Clicked="ButtonExit_Clicked"></Button>
             </Grid>
         </StackLayout>
     </Shell.FlyoutFooter>

@@ -5,10 +5,18 @@ using System.Text.Json;
 using ModelsFromWpf;
 using Syncfusion.Maui.Gauges;
 using MauiGrpcClient.Extantions;
+using Microsoft.Extensions.Localization;
+using MauiGrpcClient.Resources.Localization;
+using System.Globalization;
+
 
 namespace MauiGrpcClient;
 public partial class PcStatusPage : ContentPage
 {
+
+
+    //IStringLocalizer<RussianLanguage> localizer;
+    //string z = localizer["pcStatusTitle"];
     private bool IsTimer = true;
     public int ID_Account = 1;
 
@@ -34,14 +42,19 @@ public partial class PcStatusPage : ContentPage
         
     }
 
+    public LocalizationResourceManager LocalizationResourceManager { get; }
+
     [Obsolete]
     public PcStatusPage()
     {
-        //App.Current.MainPage = new NavigationPage(new SideMenu());
+
         ID_Account = StaticParametrs.IdRequest;
         InitializeComponent();
+        LocalizationResourceManager = StaticParametrs.LocalizationResourceManager;
+        BindingContext = this;
 
-        //OnTimerTick();
+        //LocalizationResourceManager.Instance.SetCulture(new CultureInfo("en-us"));
+        //LocalizationResourceManager.Instance.SetCulture(new CultureInfo("ru-ru"));
     }
     
     public async void StartFunction()
@@ -190,4 +203,13 @@ public partial class PcStatusPage : ContentPage
         }
 
     }
+
+    
+
+    private void LanguageChanged(object sender, EventArgs e)
+    {
+        //LocalizationResourceManager.Instance.SetCulture(new CultureInfo(LanguagePicker.Items[LanguagePicker.SelectedIndex]));
+    }
+
+   
 }
