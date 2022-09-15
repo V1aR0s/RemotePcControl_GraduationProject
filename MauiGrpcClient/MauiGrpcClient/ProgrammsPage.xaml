@@ -2,9 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiGrpcClient.ProgrammsPage"
+             xmlns:localization="clr-namespace:MauiGrpcClient.Resources.Localization"
+             Title="{Binding LocalizationResourceManager[MenuRunProgs], Mode=OneWay}"
              xmlns:local="clr-namespace:MauiGrpcClient"
              BackgroundColor="#FAF4EE"
-             Title="Процессы"
+             
              >
 
 

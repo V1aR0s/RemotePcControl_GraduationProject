@@ -9,12 +9,14 @@ namespace MauiGrpcClient;
 public partial class VolumePage : ContentPage
 {
     public int ID_Account = 1;
-
+    public LocalizationResourceManager LocalizationResourceManager { get; }
     public VolumePage()
 	{
         ID_Account = StaticParametrs.IdRequest;
         InitializeComponent();
 
+        LocalizationResourceManager = StaticParametrs.LocalizationResourceManager;
+        BindingContext = this;
 
         var monkeyList = new List<string>();
         monkeyList.Add("Baboon");

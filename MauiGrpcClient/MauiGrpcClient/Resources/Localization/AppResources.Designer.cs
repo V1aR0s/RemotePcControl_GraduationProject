@@ -70,11 +70,47 @@ namespace MauiGrpcClient.Resources.Localization {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на email.
+        /// </summary>
+        internal static string Email {
+            get {
+                return ResourceManager.GetString("Email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на PC&apos;s File System.
         /// </summary>
         internal static string FileSystemPage {
             get {
                 return ResourceManager.GetString("FileSystemPage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на has account?.
+        /// </summary>
+        internal static string hasAccount {
+            get {
+                return ResourceManager.GetString("hasAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Login Name.
+        /// </summary>
+        internal static string LoginName {
+            get {
+                return ResourceManager.GetString("LoginName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Login.
+        /// </summary>
+        internal static string LoginPageTitle {
+            get {
+                return ResourceManager.GetString("LoginPageTitle", resourceCulture);
             }
         }
         
@@ -133,11 +169,38 @@ namespace MauiGrpcClient.Resources.Localization {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Soudns settings.
+        ///   Ищет локализованную строку, похожую на Sounds settings.
         /// </summary>
         internal static string MenuSound {
             get {
                 return ResourceManager.GetString("MenuSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Have not account?.
+        /// </summary>
+        internal static string Noaccount {
+            get {
+                return ResourceManager.GetString("Noaccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на password.
+        /// </summary>
+        internal static string Password {
+            get {
+                return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Repeat password.
+        /// </summary>
+        internal static string PasswordRepeat {
+            get {
+                return ResourceManager.GetString("PasswordRepeat", resourceCulture);
             }
         }
         
@@ -187,6 +250,15 @@ namespace MauiGrpcClient.Resources.Localization {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Registration.
+        /// </summary>
+        internal static string RegistrationTitle {
+            get {
+                return ResourceManager.GetString("RegistrationTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Processes.
         /// </summary>
         internal static string RunnigProgrammsPageTitle {
@@ -210,6 +282,24 @@ namespace MauiGrpcClient.Resources.Localization {
         internal static string ScreensPageTitle {
             get {
                 return ResourceManager.GetString("ScreensPageTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Sign in.
+        /// </summary>
+        internal static string SignIn {
+            get {
+                return ResourceManager.GetString("SignIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на sign up.
+        /// </summary>
+        internal static string SignUp {
+            get {
+                return ResourceManager.GetString("SignUp", resourceCulture);
             }
         }
         

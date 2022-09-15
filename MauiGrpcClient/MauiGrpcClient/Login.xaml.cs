@@ -7,10 +7,14 @@ namespace MauiGrpcClient;
 
 public partial class Login : ContentPage
 {
-	public Login()
+
+    public LocalizationResourceManager LocalizationResourceManager { get; }
+    public Login()
 	{
 		InitializeComponent();
-	}
+        LocalizationResourceManager = StaticParametrs.LocalizationResourceManager;
+        BindingContext = this;
+    }
     private async void Button_Clicked(object sender, EventArgs e)
     {
         App.Current.MainPage = new RegisterPage();

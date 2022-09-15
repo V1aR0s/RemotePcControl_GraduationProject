@@ -16,20 +16,9 @@ public partial class App : Application
 		InitializeComponent();
         Services = provider;
         AlertSvc = Services.GetService<IAlertService>();
-
-        try
-        {
-            using var channel = GrpcChannel.ForAddress(StaticParametrs.BaseURI);
-            var client = new Greeter.GreeterClient(channel);
-            var res = client.SayHello(new HelloRequest { Name = "dsadas" });
-        }
-        catch(Exception ex) {
-            string ex_ = ex.Message;
-        }
-
+        LocalizationResourceManager.Instance.SetCulture(new CultureInfo(StaticParametrs.LanguageNow));
         LoginCheck();
-        //MainPage = new RegisterPage();
-        
+
     }
 
 
@@ -51,7 +40,6 @@ public partial class App : Application
 
             if (reply.Result == "true")
             {
-                LocalizationResourceManager.Instance.SetCulture(new CultureInfo(StaticParametrs.LanguageNow));
                 MainPage = new SideMenu();
 
                 StaticParametrs.IdRequest = reply.RequestId;

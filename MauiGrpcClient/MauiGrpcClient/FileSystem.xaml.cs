@@ -13,13 +13,16 @@ public partial class FileSystem : ContentPage
     public int ID_Account = 1;
 
     List<string> NowDirectoryWay;
-
+    public LocalizationResourceManager LocalizationResourceManager { get; }
     public FileSystem()
     {
         ID_Account = StaticParametrs.IdRequest;
 
 
         InitializeComponent();
+        LocalizationResourceManager = StaticParametrs.LocalizationResourceManager;
+        BindingContext = this;
+
         NowDirectory = new List<FileClass>();
 
     }

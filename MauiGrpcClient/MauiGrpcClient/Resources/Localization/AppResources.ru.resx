@@ -120,8 +120,20 @@
   <data name="BackButton" xml:space="preserve">
     <value>Назад</value>
   </data>
+  <data name="Email" xml:space="preserve">
+    <value>Почта</value>
+  </data>
   <data name="FileSystemPage" xml:space="preserve">
     <value>Файловая система</value>
+  </data>
+  <data name="hasAccount" xml:space="preserve">
+    <value>есть аккаунт?</value>
+  </data>
+  <data name="LoginName" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value>Авторизация</value>
   </data>
   <data name="MenuExit" xml:space="preserve">
     <value>Выход</value>
@@ -143,6 +155,15 @@
   </data>
   <data name="MenuSound" xml:space="preserve">
     <value>Звук</value>
+  </data>
+  <data name="Noaccount" xml:space="preserve">
+    <value>Нет аккаунта?</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>пароль</value>
+  </data>
+  <data name="PasswordRepeat" xml:space="preserve">
+    <value>Повтор пароля</value>
   </data>
   <data name="pcStatusBattaryLoad" xml:space="preserve">
     <value>Батарея/Время работы</value>
@@ -167,6 +188,9 @@
   </data>
   <data name="ScreensPageTitle" xml:space="preserve">
     <value>Мониторы</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>регистрация</value>
   </data>
   <data name="SoundPageCheckerTitle" xml:space="preserve">
     <value>Устройства звука:</value>

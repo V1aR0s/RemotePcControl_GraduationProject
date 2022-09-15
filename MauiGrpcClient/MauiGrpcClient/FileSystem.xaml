@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiGrpcClient.FileSystem"
-             Title="FileSystem">
+             xmlns:localization="clr-namespace:MauiGrpcClient.Resources.Localization"
+             Title="{Binding LocalizationResourceManager[FileSystemPage], Mode=OneWay}">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -13,7 +14,7 @@
             <Frame Grid.Row="0" CornerRadius="0" BorderColor="Transparent">
                 <StackLayout Orientation="Horizontal">
                     <ImageButton Source="backarrow.png" WidthRequest="35" HeightRequest="35" Clicked="BackButton"></ImageButton>
-                    <Label VerticalOptions="Center" Margin="10, 0, 0, 0" FontSize="16">Назад</Label>
+                    <Label VerticalOptions="Center" Margin="10, 0, 0, 0" FontSize="16" Text="{Binding LocalizationResourceManager[BackButton], Mode=OneWay}"></Label>
                 </StackLayout>
                
             </Frame>

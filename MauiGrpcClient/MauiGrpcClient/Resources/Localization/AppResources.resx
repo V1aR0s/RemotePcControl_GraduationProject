@@ -120,8 +120,20 @@
   <data name="BackButton" xml:space="preserve">
     <value>Back</value>
   </data>
+  <data name="Email" xml:space="preserve">
+    <value>email</value>
+  </data>
   <data name="FileSystemPage" xml:space="preserve">
     <value>PC's File System</value>
+  </data>
+  <data name="hasAccount" xml:space="preserve">
+    <value>has account?</value>
+  </data>
+  <data name="LoginName" xml:space="preserve">
+    <value>Login Name</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value>Login</value>
   </data>
   <data name="MenuExit" xml:space="preserve">
     <value>Exit</value>
@@ -142,7 +154,16 @@
     <value>Monitors</value>
   </data>
   <data name="MenuSound" xml:space="preserve">
-    <value>Soudns settings</value>
+    <value>Sounds settings</value>
+  </data>
+  <data name="Noaccount" xml:space="preserve">
+    <value>Have not account?</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>password</value>
+  </data>
+  <data name="PasswordRepeat" xml:space="preserve">
+    <value>Repeat password</value>
   </data>
   <data name="pcStatusBattaryLoad" xml:space="preserve">
     <value>Battary/Work Time</value>
@@ -159,6 +180,9 @@
   <data name="pcStatusTitle" xml:space="preserve">
     <value>pc status</value>
   </data>
+  <data name="RegistrationTitle" xml:space="preserve">
+    <value>Registration</value>
+  </data>
   <data name="RunnigProgrammsPageTitle" xml:space="preserve">
     <value>Processes</value>
   </data>
@@ -167,6 +191,12 @@
   </data>
   <data name="ScreensPageTitle" xml:space="preserve">
     <value>Monitors</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>sign up</value>
   </data>
   <data name="SoundPageCheckerTitle" xml:space="preserve">
     <value>Sound devices</value>

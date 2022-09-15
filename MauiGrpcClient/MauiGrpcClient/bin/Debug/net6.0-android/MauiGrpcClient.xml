@@ -25,9 +25,29 @@
               Ищет локализованную строку, похожую на Back.
             </summary>
         </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.Email">
+            <summary>
+              Ищет локализованную строку, похожую на email.
+            </summary>
+        </member>
         <member name="P:MauiGrpcClient.Resources.Localization.AppResources.FileSystemPage">
             <summary>
               Ищет локализованную строку, похожую на PC&apos;s File System.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.hasAccount">
+            <summary>
+              Ищет локализованную строку, похожую на has account?.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.LoginName">
+            <summary>
+              Ищет локализованную строку, похожую на Login Name.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.LoginPageTitle">
+            <summary>
+              Ищет локализованную строку, похожую на Login.
             </summary>
         </member>
         <member name="P:MauiGrpcClient.Resources.Localization.AppResources.MenuExit">
@@ -62,7 +82,22 @@
         </member>
         <member name="P:MauiGrpcClient.Resources.Localization.AppResources.MenuSound">
             <summary>
-              Ищет локализованную строку, похожую на Soudns settings.
+              Ищет локализованную строку, похожую на Sounds settings.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.Noaccount">
+            <summary>
+              Ищет локализованную строку, похожую на Have not account?.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.Password">
+            <summary>
+              Ищет локализованную строку, похожую на password.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.PasswordRepeat">
+            <summary>
+              Ищет локализованную строку, похожую на Repeat password.
             </summary>
         </member>
         <member name="P:MauiGrpcClient.Resources.Localization.AppResources.pcStatusBattaryLoad">
@@ -90,6 +125,11 @@
               Ищет локализованную строку, похожую на pc status.
             </summary>
         </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.RegistrationTitle">
+            <summary>
+              Ищет локализованную строку, похожую на Registration.
+            </summary>
+        </member>
         <member name="P:MauiGrpcClient.Resources.Localization.AppResources.RunnigProgrammsPageTitle">
             <summary>
               Ищет локализованную строку, похожую на Processes.
@@ -103,6 +143,16 @@
         <member name="P:MauiGrpcClient.Resources.Localization.AppResources.ScreensPageTitle">
             <summary>
               Ищет локализованную строку, похожую на Monitors.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.SignIn">
+            <summary>
+              Ищет локализованную строку, похожую на Sign in.
+            </summary>
+        </member>
+        <member name="P:MauiGrpcClient.Resources.Localization.AppResources.SignUp">
+            <summary>
+              Ищет локализованную строку, похожую на sign up.
             </summary>
         </member>
         <member name="P:MauiGrpcClient.Resources.Localization.AppResources.SoundPageCheckerTitle">

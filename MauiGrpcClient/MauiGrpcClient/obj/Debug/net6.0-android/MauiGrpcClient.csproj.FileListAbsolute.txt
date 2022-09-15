@@ -1204,7 +1204,6 @@ D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\De
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\Mono.Android.Export.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\Mono.Android.Export.pdb
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\Mono.Android.pdb
-D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\netstandard.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\SixLabors.ImageSharp.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\SQLite-net.dll
@@ -1219,7 +1218,6 @@ D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\De
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\Syncfusion.Maui.Sliders.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.AppContext.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Buffers.dll
-D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Collections.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Collections.Immutable.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Collections.NonGeneric.dll
@@ -1235,7 +1233,6 @@ D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\De
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Core.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Data.Common.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Data.DataSetExtensions.dll
-D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Data.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Contracts.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Debug.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Diagnostics.DiagnosticSource.dll
@@ -1246,7 +1243,6 @@ D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\De
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Tools.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Diagnostics.TraceSource.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Tracing.dll
-D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Drawing.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Drawing.Primitives.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Dynamic.Runtime.dll
@@ -1280,7 +1276,6 @@ D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\De
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Net.HttpListener.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Net.Mail.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Net.NameResolution.dll
-D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Net.NetworkInformation.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Net.Ping.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Net.Primitives.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Net.Quic.dll
@@ -1296,9 +1291,7 @@ D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\De
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Numerics.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Numerics.Vectors.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.ObjectModel.dll
-D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Private.DataContractSerialization.dll
-D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Private.Xml.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Private.Xml.Linq.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Reflection.DispatchProxy.dll
@@ -1365,7 +1358,6 @@ D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\De
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Web.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Web.HttpUtility.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Windows.dll
-D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Xml.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Xml.Linq.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Xml.ReaderWriter.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Xml.Serialization.dll
@@ -2032,3 +2024,11 @@ D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\De
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\ru\MauiGrpcClient.resources.dll
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\MauiGrpcClient.Resources.Localization.AppResources.resources
 D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\MauiGrpcClient.Resources.Localization.AppResources.ru.resources
+D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\mscorlib.dll
+D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
+D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Data.dll
+D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.dll
+D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Net.NetworkInformation.dll
+D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
+D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
+D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\obj\Debug\net6.0-android\android\assets\System.Xml.dll

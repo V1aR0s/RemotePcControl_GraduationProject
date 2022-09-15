@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiGrpcClient.VolumePage"
-             Title="Звук"
+             Title="{Binding LocalizationResourceManager[MenuSound], Mode=OneWay}"
+             xmlns:localization="clr-namespace:MauiGrpcClient.Resources.Localization"
              xmlns:sliders="clr-namespace:Syncfusion.Maui.Sliders;assembly=Syncfusion.Maui.Sliders"
              BackgroundColor="#FAF4EE"
              >
@@ -35,14 +36,12 @@
 
             <Frame Grid.Column="1" Margin="20" BackgroundColor="#EFBE98">
                 <StackLayout VerticalOptions="FillAndExpand">
-                    <Label FontSize="20" Text="Устройства звука:" TextColor="#B98068"></Label>
+                    <Label FontSize="20" Text="{Binding LocalizationResourceManager[SoundPageCheckerTitle], Mode=OneWay}" TextColor="#B98068"></Label>
                     <Picker x:Name="pickerOutput" HorizontalOptions="Start" Margin="0, 15, 0, 0" TextColor="#B98068" BackgroundColor="Wheat">
                     </Picker>
-                    <Label TextColor="#B98068" FontSize="14" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand">
-                        Данный выбор влияет как на устройства ввода, так и на устройства вывода. Изменение будет зависить от выбора, 
-                        выбравши устройство ввода изменения измениться только устрйоство ввода, а выбравши устрйоство вывода изсениться только устрйоство вывода.
+                    <Label TextColor="#B98068" FontSize="14" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding LocalizationResourceManager[SoundPageDescription], Mode=OneWay}">
                     </Label>
-                    <Button Clicked="SetVolumeAndDevice_Clicked" Text="Сохранить" VerticalOptions="EndAndExpand" BackgroundColor="Wheat" TextColor="DarkBlue"></Button>
+                    <Button Clicked="SetVolumeAndDevice_Clicked" Text="{Binding LocalizationResourceManager[SaveButton], Mode=OneWay}" VerticalOptions="EndAndExpand" BackgroundColor="Wheat" TextColor="DarkBlue"></Button>
                 </StackLayout>
             </Frame>
         </Grid>

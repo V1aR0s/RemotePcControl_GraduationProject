@@ -18,12 +18,16 @@ public partial class ProgrammsPage : ContentPage
     //List of running programms
     public List<RunningProgramms> programms;
     ProgrammsPageViewModel model;
+    public LocalizationResourceManager LocalizationResourceManager { get; }
 
     //Contstruct
     public ProgrammsPage()
 	{
         ID_Account = StaticParametrs.IdRequest;
         InitializeComponent();
+        LocalizationResourceManager = StaticParametrs.LocalizationResourceManager;
+        BindingContext = this;
+
         model = new ProgrammsPageViewModel();
         this.BindingContext = model;
 
