@@ -1,2 +1,0 @@
-D:\RD\Diplom\MauiGrpcClient\MauiGrpcClient\bin\Debug\net6.0-android\publish\com.companyname.mauigrpcclient-Signed.apk
-D:\RD\Diplom\MauiGrpcClient\MauiGrpcClient\bin\Debug\net6.0-android\publish\com.companyname.mauigrpcclient.apk

@@ -1,2 +1,0 @@
-D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\GrpcMauiClassLib\GrpcMauiClassLib.csproj;neutral
-D:\RD\GIT\RemotePcControl_GraduationProject\MauiGrpcClient\MauiGrpcClient\MauiGrpcClient.csproj;x64

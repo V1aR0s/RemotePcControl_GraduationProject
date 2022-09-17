@@ -1,2 +1,0 @@
-obj\Debug\net6.0-maccatalyst\maccatalyst-x64\Protos/Greet.cs \
-obj\Debug\net6.0-maccatalyst\maccatalyst-x64\Protos/GreetGrpc.cs: Protos/greet.proto
