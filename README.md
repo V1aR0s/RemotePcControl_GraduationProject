@@ -3,24 +3,23 @@
 </p>
 
 # Про проект:
-<p>Данный проект позволяет с приложения на android, удаленно выполнять некоторые манипуляции с помощью клиента на пк.</br>
-Весь проект написан на языке C# и делался в качестве дипломной работы. Проект состоит из трех основных частей: клинет на пк, на андроид и сервер.
-Для связи между клиенатми в сервере используется технология gRPC, и он уже выложен и функционирует на azure.</p>
+<p>This project allows you to remotely perform some manipulations using a client on a PC from an android application.
+The entire project is written in C# and was done as a thesis. The project consists of three main parts: client for PC, Android and server. The server uses gRPC technology for client-to-client communications and is already live and running on azure.</p>
 
-### На данный момент в функционал входит: 
-* Управление звуковым устрйоством и громкости звука
-* Выключение, перезагрузка, ввод устройства в спящий режим
-* Получение небольшой информации о пк:
-  + Загруженность оперативной памяти
-  + Загруженность процессора
-  + Время работы
-  + Время последнего запроса с пк
-* Получения файловой системы с пк
-* Получения списка запущенных программ
-* Выключений запущенной программы
+### At the moment, the functionality includes:
+* Sound device and sound volume control
+* Shutdown, reboot, put the device into sleep mode
+* Getting a little information about the PC:
+  + RAM load
+  + CPU load
+  + Pc working hours
+  + Time of last request from PC
+* Getting file system from PC
+* Getting a list of running programs
+* Shutting down a running program
 
 
 # Технологии:
-<p>.net MAUI - это кросс-платформенная платформа для создания мобильных c помощью C#, а так же является актуальной заменой Xamarin</p>
-<p>WPF - платформа которая позволяет создавать приложения для Пк на c помощью C#</p>
-<p>gRPC — фреймворк для удаленного вызова процедур, позволяет выстроить связь между сервисами, и работает с 10 языками</p>
+<p>.net MAUI is a cross-platform platform for creating mobile devices using C#, and is also an actual replacement for Xamarin</p>
+<p>WPF - a platform that allows you to create applications for the PC using C #</p>
+<p>gRPC is a framework for remote procedure call, allows you to build a connection between services, and works with 10 languages</p>
