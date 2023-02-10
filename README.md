@@ -23,3 +23,4 @@ The entire project is written in C# and was done as a thesis. The project consis
 <p>.net MAUI is a cross-platform platform for creating mobile devices using C#, and is also an actual replacement for Xamarin</p>
 <p>WPF - a platform that allows you to create applications for the PC using C #</p>
 <p>gRPC is a framework for remote procedure call, allows you to build a connection between services, and works with 10 languages</p>
+<p>!!!Not working now</p>
